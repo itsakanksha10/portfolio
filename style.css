@@ -1,0 +1,9 @@
+.main-head{
+    margin: 20px 0;
+    text-align: center;
+}
+.main-img{
+    width: 250px;
+    margin: 0 auto;
+    border-radius: 50%;
+}
