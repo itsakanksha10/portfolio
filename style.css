@@ -1,9 +1,93 @@
-.main-head{
-    margin: 20px 0;
-    text-align: center;
+body{
+    background-color: #e0e0db;
 }
-.main-img{
-    width: 250px;
-    margin: 0 auto;
-    border-radius: 50%;
+.header {
+    padding: 1em 5em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 4em;
+}
+.head-name{
+    font-family: 'Hahmlet', sans-serif;
+    font-size: 1.5em;
+    margin: 0;
+    font-weight: 600;
+}
+.fa-whatsapp{
+    height: 20px;
+    width: 20px;
+    color:#000000
+}
+.social-icons {
+    color: #000000;
+    margin: 0 1em;
+}
+.social-icons:hover{
+    cursor: pointer;
+    color: #000000;
+}
+.contents {
+    padding: 1em 5em;
+    display: flex;
+    justify-content: space-between;
+}
+img.profile.pic {
+    width: 30vw;
+}
+.intro {
+    width: 50vw;
+}
+h1.heading {
+    font-size: 5em;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 300;
+}
+h3.subheading {
+    font-size: 2.5em;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 300;
+}
+p.content {
+    font-size: 0.56em;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 300;
+}
+hr.one{
+    border-color: #000000;
+    border-bottom: none;
+    border-width: 1px;
+}
+.location {
+    padding: 1em 15em;
+}
+p.text{
+    font-style: italic;
+    text-align: center;
+    font-size: 1.8em;
+    font-weight: 300;
+}
+h3.place{
+    font-family: 'Cormorant Garamond', serif;
+    text-align: center;
+    font-weight: 500;
+    font-size: 4em;
+    margin-top: 0.8em;
+}
+#footer {
+    background: #444444;
+    height: 250px;
+    font-family: 'Open Sans', sans-serif;
+    color: #FFFFFF;
+    padding: 20px;
+    margin-top: 300px;
+}
+.socio{
+    color:#FFFFFF;
+    margin: 0 0.5em;
+    font-size: 1.5em;
+}
+.footericon{
+    text-align: center;
+    padding: 5em;
 }
